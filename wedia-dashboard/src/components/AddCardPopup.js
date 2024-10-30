@@ -1,4 +1,3 @@
-// src/components/AddCardPopup.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -27,7 +26,7 @@ function AddCardPopup({ onClose, onCardAdded, onCardEdited, editingCard }) {
 
   const handleImageRemove = () => {
     setExistingImage(null);
-    setRemoveImage(true); // Mark to remove image on submit
+    setRemoveImage(true); 
   };
 
   const handleSubmit = async (e) => {

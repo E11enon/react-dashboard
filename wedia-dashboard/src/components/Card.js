@@ -1,4 +1,3 @@
-// src/components/Card.js
 import React from "react";
 
 function Card({ title, link, image, onDelete, onEdit }) {
