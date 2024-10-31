@@ -1,4 +1,3 @@
-// src/components/Card.js
 import React from "react";
 
 function Card({ title, link, image, onDelete, onEdit }) {
@@ -34,7 +33,6 @@ function Card({ title, link, image, onDelete, onEdit }) {
           )}
         </figure>
         
-        {/* Card Content */}
         <div className="p-6">
           <h3 className="mb-4 text-xl font-medium text-slate-700">{title}</h3>
           <a
@@ -46,7 +44,6 @@ function Card({ title, link, image, onDelete, onEdit }) {
             Check
           </a>
 
-          {/* Conditionally Render Edit and Delete Buttons Only if Props Exist */}
           {(onEdit || onDelete) && (
             <div className="flex justify-center mt-4 space-x-4">
               {onEdit && (

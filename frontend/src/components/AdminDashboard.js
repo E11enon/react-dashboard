@@ -1,4 +1,3 @@
-// src/components/AdminDashboard.js
 import React, { useState, useEffect } from 'react';
 import axios from '../axiosConfig';
 import Header from './Header';
